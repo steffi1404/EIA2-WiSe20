@@ -1,5 +1,3 @@
-
-
 li {
     
     text-decoration: none;
@@ -26,12 +24,5 @@ li {
     text-decoration-color: black;
     color:white;
     display: block;
-
-}
-
-
-main { display: flex;
-       justify-content: center;
-       align-items: center;
 
 }
