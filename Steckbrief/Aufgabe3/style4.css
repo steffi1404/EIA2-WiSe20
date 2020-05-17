@@ -49,15 +49,17 @@ li a.aktiv{
   font-weight: 1000;
 }
 
-.Kontakt{
-  color: lightgreen;
+.Kontaktformular{
+  width: 550px;
   font-size: 20pt;
+  font-family: sans-serif;
   font-weight: bold;
-  position: relative;
-  text-align: left;
-  margin-top: -700px;
-  margin-left: 210px;
+  color: #006680;
 }
+
+
+
+
 
 .formular{
   background: lightgrey;
@@ -89,9 +91,9 @@ li a.aktiv{
 
 .absenden{
   color: white;
-  background: lightslategrey;
-  font-size: 10pt;
-  width: 55px;
+  background: lightgrey;
+  font-size: 15pt;
+  width: 90px;
   padding: 5px 5px 5px 5px;
   margin-left: 210px;
 }
