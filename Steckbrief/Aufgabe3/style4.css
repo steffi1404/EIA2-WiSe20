@@ -112,14 +112,15 @@ li a.aktiv{
 
 }
 
-main div {
+div {
 
 text-align: left;
 width: 800px;
+text-align: center;
 
 }
 
-main div p{
+main div p {
 
 text-align: left;
 font-family: sans-serif;
