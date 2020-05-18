@@ -97,3 +97,26 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: lightgrey;
 }
+
+.Ü{
+
+font-size: xx-large;
+font-family: sans-serif;
+color: #006680;
+font-weight: bolder;
+text-align: left;
+}
+
+div a{
+
+color: blue;
+text-decoration: none;
+font-size: large;
+}
+
+.a1{
+
+color: magenta;
+text-decoration: none;
+font-size: large;
+}
