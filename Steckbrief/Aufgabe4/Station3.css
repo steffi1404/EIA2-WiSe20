@@ -1,3 +1,8 @@
+    .body{
+
+    font-family: ;
+    }
+    
     .Karte {
         position: fixed;
         top:150px;
@@ -34,4 +39,4 @@
         color: whitesmoke;
         left: 540px;}
 
-    @import url('https://steffi1404.github.io/EIA1-SoSe20/Steckbrief/Aufgabe4/Font/JellykaDeliciousCake.ttf')
+    
