@@ -1,49 +1,51 @@
-Karte {
-    position: absolute;
-    top: 20px;
+.Karte {
+    position: fixed;
+    z-index: -100;
     }
     
-    .pinguin {
-        display: inline-block;
-        position: relative;
-        top: 245px;
-        left: -99px;
-    }
-    
-    .shell {
-        display: inline-block;
-        position: relative;
-        left: -410px;
-        top: 295px;
-    }
-    
-    .text {
-        display: block;
-        position: relative;
-        color: whitesmoke;
-        left: 200px;
-        top: 125px;
-    }
-    
+   
     .div1 {
-        position: relative;
+        position: fixed;
         justify-content: center;
         align-items: center;
         margin-right: auto;
         margin-bottom: auto;
-        margin-left: auto;
-        margin-top: 150px;
+        margin-left: 750px;
+        margin-top: 350px;
         display: flex;
+    }
+
+    .div2 {
+        position: fixed;
+        margin-right: auto;
+        margin-bottom: auto;
+        margin-left: 500px;
+        top: 215px;
+        display: flex;
+        z-index: 0px;
        
     }
+
+    .div3 {
+        position: fixed;
+        margin-right: auto;
+        margin-bottom: auto;
+        margin-left: 822px;
+        top: 435px;
+        display: flex;
+        z-index: 999px;
+
+    }
     
-    .Überschrift {
-        position: absolute;
-        font-size: 25px;
-        display: inline-block;
-        top: 50px;
-        font-style: sans-serif;
-        color: whitesmoke;
+    .video {
+        position: fixed;
+        z-index: -50px;
+    }
+
+    .Schleife{
+        position: fixed;
+        z-index: 999px;
+
     }
     
     

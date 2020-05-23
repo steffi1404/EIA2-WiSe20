@@ -1,34 +1,35 @@
     .Karte {
-        position: absolute;
-        top: 20px;
+        position: fixed;
+        top:150px;
+        left: 450px;
     }
     
     
     .text {
         display: block;
-        position: relative;
+        position: fixed;
         color: whitesmoke;
-        left: -25px;
-        top: 120px;
+        left: 530px;
+        top: 260px;
         font-size: 19px;
     }
     
     .div1 {
-        position: relative;
+        position: fixed;
         justify-content: center;
         align-items: center;
         margin-right: auto;
         margin-bottom: auto;
         margin-left: auto;
-        margin-top: 150px;
+        margin-top: 200px;
         display: flex;
        
     }
     
     .Überschrift {
-        position: absolute;
+        position: fixed;
         font-size: 30px;
         display: inline-block;
-        top: 45px;
+        top: 200px;
         color: whitesmoke;
         left: 540px;}
