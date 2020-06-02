@@ -1,24 +1,24 @@
 //*Alle Emissionswerte der Kontinente von 2008/2018 (Werte aus Tabelle)----------------------------------------------------------------------*//
-var Europa08 = 4965.7;
-var Europa18 = 4209.3;
+var Europa08: number = 4965.7;
+var Europa18: number = 4209.3;
 
-var Africa08 = 1028;
-var Africa18 = 1235.5;
+var Africa08: number = 1028;
+var Africa18: number = 1235.5;
 
-var SouthAmerica08 = 1132.6;
-var SouthAmerica18 = 1261.5;
+var SouthAmerica08: number = 1132.6;
+var SouthAmerica18: number = 1261.5;
 
-var NorthAmerica08 = 6600.4;
-var NorthAmerica18 = 6035.6;
+var NorthAmerica08: number = 6600.4;
+var NorthAmerica18: number = 6035.6;
 
-var Asia08 = 12954.7;
-var Asia18 = 16274.1;
+var Asia08: number = 12954.7;
+var Asia18: number = 16274.1;
 
-var Australia08 = 1993;
-var Australia18 = 2100.5;
+var Australia08: number = 1993;
+var Australia18: number = 2100.5;
 
 //*Gesamte Emissionswerte der Kontinente aus dem Jahr 2018-----------------------------------------------------------------------------------*//
-var Gesamt = Europa18 + Africa18 + SouthAmerica18 + NorthAmerica18 + Asia18 + Australia18;
+var Gesamt: number = Europa18 + Africa18 + SouthAmerica18 + NorthAmerica18 + Asia18 + Australia18;
 
 
 
