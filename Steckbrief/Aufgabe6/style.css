@@ -24,28 +24,34 @@ section {
     width: 50px;
     height: 100px;
     background: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
 }
 .chartWrapper .chart {
     position: absolute;
     bottom: 0;
     width: 100%;
-    height: 100%;
-    background: rgb(233, 61, 61);
+    height: 0%;
+    background: rgb(161, 13, 13);
     transition: 1s;
+}
+
+.europe:hover, .northamerica:hover, .southamerica:hover, .africa:hover, .asia:hover, .australia:hover{
+    opacity: 100%;
+    transform: scale(1.1);
+}
+
+.europe, .northamerica, .southamerica, .africa, .asia, .australia{
+    opacity: 90%;
+}
+
+.prozent {
+ 
+ 
+    margin-top: 0px;
 }
 
 footer p {
     margin-top: 50px;
     font-size: 10px;
     opacity: .5;
-}
-
-   
-.europe:hover, .northamerica:hover, .southamerica:hover, .africa:hover, .asia:hover, .australia:hover{
-    opacity: 100%;
-    transform: scale(1.2);
-}
-
-.europe, .northamerica, .southamerica, .africa, .asia, .australia{
-    opacity: 90%;
 }

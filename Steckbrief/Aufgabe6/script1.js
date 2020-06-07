@@ -46,97 +46,103 @@ window.addEventListener("load", function () {
     var absoluteSA = SouthAmerica18 - SouthAmerica08;
     //*EUROPA*//
     function Europe() {
-        document.querySelector("#emission").innerHTML = EmissionEU;
+        document.querySelector("#emission").innerHTML = EmissionEU + " kg CO2";
         document.querySelector("#emissiont").innerHTML = "Emission absolute of Europe in 2018";
         document.querySelector("#relative").innerHTML = RelativeEU.toFixed(2) + "%";
         document.querySelector("#relativet").innerHTML = "Relative to total world's emission";
         document.querySelector("#growth").innerHTML = GrowthEU.toFixed(2) + "%";
         document.querySelector("#growtht").innerHTML = "Growth rate between 2008 and 2018 (in %)";
-        document.querySelector("#absolute").innerHTML = absoluteEU.toFixed(2);
+        document.querySelector("#absolute").innerHTML = absoluteEU.toFixed(2) + " kg CO2";
         document.querySelector("#absolutet").innerHTML = "Growth rate between 2008 and 2018 (absolute)";
         //*DIAGRAMM*//
         document.querySelector("#titleRegion").innerHTML = "Europe";
         document.querySelector(".chart").setAttribute("style", "height:" + RelativeEU + "px");
+        document.querySelector(".prozent").innerHTML = "13.53%";
     }
     //*EVENT LISTENER*//
     document.querySelector(".europe").addEventListener("click", Europe);
     //*AFRICA*//
     function Africa() {
-        document.querySelector("#emission").innerHTML = EmissionAF;
+        document.querySelector("#emission").innerHTML = EmissionAF + " kg CO2";
         document.querySelector("#emissiont").innerHTML = "Emission absolute of Africa in 2018";
         document.querySelector("#relative").innerHTML = RelativeAF.toFixed(2) + "%";
         document.querySelector("#relativet").innerHTML = "Relative to total world's emission";
         document.querySelector("#growth").innerHTML = GrowthAF.toFixed(2) + "%";
         document.querySelector("#growtht").innerHTML = "Growth rate between 2008 and 2018 (in %)";
-        document.querySelector("#absolute").innerHTML = absoluteAF.toFixed(2);
+        document.querySelector("#absolute").innerHTML = absoluteAF.toFixed(2) + " kg CO2";
         document.querySelector("#absolutet").innerHTML = "Growth rate between 2008 and 2018 (absolute)";
         //*DIAGRAMM*//
         document.querySelector("#titleRegion").innerHTML = "Africa";
         document.querySelector(".chart").setAttribute("style", "height:" + RelativeAF + "px");
+        document.querySelector(".prozent").innerHTML = "3.97%";
     }
     //*EVENT LISTENER*//
     document.querySelector(".africa").addEventListener("click", Africa);
     //*ASIA*//
     function Asia() {
-        document.querySelector("#emission").innerHTML = EmissionAS;
+        document.querySelector("#emission").innerHTML = EmissionAS + " kg CO2";
         document.querySelector("#emissiont").innerHTML = "Emission absolute of Asia in 2018";
         document.querySelector("#relative").innerHTML = RelativeAS.toFixed(2) + "%";
         document.querySelector("#relativet").innerHTML = "Relative to total world's emission";
         document.querySelector("#growth").innerHTML = GrowthAS.toFixed(2) + "%";
         document.querySelector("#growtht").innerHTML = "Growth rate between 2008 and 2018 (in %)";
-        document.querySelector("#absolute").innerHTML = absoluteAS.toFixed(2);
+        document.querySelector("#absolute").innerHTML = absoluteAS.toFixed(2) + " kg CO2";
         document.querySelector("#absolutet").innerHTML = "Growth rate between 2008 and 2018 (absolute)";
         //*DIAGRAMM*//  
         document.querySelector("#titleRegion").innerHTML = "Asia";
         document.querySelector(".chart").setAttribute("style", "height:" + RelativeAS + "px");
+        document.querySelector(".prozent").innerHTML = "52.30%";
     }
     //*EVENT LISTENER*//
     document.querySelector(".asia").addEventListener("click", Asia);
     //*AUSTRALIA*//
     function Australia() {
-        document.querySelector("#emission").innerHTML = EmissionAU;
+        document.querySelector("#emission").innerHTML = EmissionAU + " kg CO2";
         document.querySelector("#emissiont").innerHTML = "Emission absolute of Australia in 2018";
         document.querySelector("#relative").innerHTML = RelativeAU.toFixed(2) + "%";
         document.querySelector("#relativet").innerHTML = "Relative to total world's emission";
         document.querySelector("#growth").innerHTML = GrowthAU.toFixed(2) + "%";
         document.querySelector("#growtht").innerHTML = "Growth rate between 2008 and 2018 (in %)";
-        document.querySelector("#absolute").innerHTML = absoluteAU.toFixed(2);
+        document.querySelector("#absolute").innerHTML = absoluteAU.toFixed(2) + " kg CO2";
         document.querySelector("#absolutet").innerHTML = "Growth rate between 2008 and 2018 (absolute)";
         //*DIAGRAMM*//    
         document.querySelector("#titleRegion").innerHTML = "Australia";
         document.querySelector(".chart").setAttribute("style", "height:" + RelativeAU + "px");
+        document.querySelector(".prozent").innerHTML = "6.75%";
     }
     //*EVENT LISTENER*//
     document.querySelector(".australia").addEventListener("click", Australia);
     //*NORTH AMERICA*//
     function Northamerica() {
-        document.querySelector("#emission").innerHTML = EmissionNA;
+        document.querySelector("#emission").innerHTML = EmissionNA + " kg CO2";
         document.querySelector("#emissiont").innerHTML = "Emission absolute of North America in 2018";
         document.querySelector("#relative").innerHTML = RelativeNA.toFixed(2) + "%";
         document.querySelector("#relativet").innerHTML = "Relative to total world's emission";
         document.querySelector("#growth").innerHTML = GrowthNA.toFixed(2) + "%";
         document.querySelector("#growtht").innerHTML = "Growth rate between 2008 and 2018 (in %)";
-        document.querySelector("#absolute").innerHTML = absoluteNA.toFixed(2);
+        document.querySelector("#absolute").innerHTML = absoluteNA.toFixed(2) + " kg CO2";
         document.querySelector("#absolutet").innerHTML = "Growth rate between 2008 and 2018 (absolute)";
         //*DIAGRAMM*//
         document.querySelector("#titleRegion").innerHTML = "North America";
         document.querySelector(".chart").setAttribute("style", "height:" + RelativeNA + "px");
+        document.querySelector(".prozent").innerHTML = "19.40%";
     }
     //*EVENT LISTENER*//
     document.querySelector(".northamerica").addEventListener("click", Northamerica);
     //*SOUTH AMERICA*//
     function Southamerica() {
-        document.querySelector("#emission").innerHTML = EmissionSA;
+        document.querySelector("#emission").innerHTML = EmissionSA + " kg CO2";
         document.querySelector("#emissiont").innerHTML = "Emission absolute of South America in 2018";
         document.querySelector("#relative").innerHTML = RelativeSA.toFixed(2) + "%";
         document.querySelector("#relativet").innerHTML = "Relative to total world's emission";
         document.querySelector("#growth").innerHTML = GrowthSA.toFixed(2) + "%";
         document.querySelector("#growtht").innerHTML = "Growth rate between 2008 and 2018 (in %)";
-        document.querySelector("#absolute").innerHTML = absoluteSA.toFixed(2);
+        document.querySelector("#absolute").innerHTML = absoluteSA.toFixed(2) + " kg CO2";
         document.querySelector("#absolutet").innerHTML = "Growth rate between 2008 and 2018 (absolute)";
         //*DIAGRAMM*//
         document.querySelector("#titleRegion").innerHTML = "South America";
         document.querySelector(".chart").setAttribute("style", "height:" + RelativeSA + "px");
+        document.querySelector(".prozent").innerHTML = "4.05%";
     }
     //*EVENT LISTENER*//
     document.querySelector(".southamerica").addEventListener("click", Southamerica);
