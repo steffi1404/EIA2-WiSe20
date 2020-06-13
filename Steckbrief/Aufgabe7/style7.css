@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    display: block;
+    position: relative;
+    top: 100px;
+    text-align: center;
+}
+#b1, #b2, #b3{
+    background-color: #3538d1;
+    border-color: #3538d1;
+}
+
+#b4, #b5, #b6, #b7{
+    background-color: #f03db1;
+    border-color: #f03db1;
+    opacity: 100%;
+}
+#b8, #b9{
+    background-color: #dfab1e;
+    border-color: #dfab1e;
+}
+button{
+    text-align: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+img:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
