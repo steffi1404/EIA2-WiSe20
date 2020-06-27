@@ -1,54 +1,47 @@
 "use strict";
-console.log("hahahahahio");
+console.log();
 var kinder = 3;
+//*EVENT LISTENER*//
+// tslint:disable-next-line: typedef
 window.addEventListener("load", function () {
+    // tslint:disable-next-line: typedef
     document.querySelectorAll(".delete")[0].addEventListener("click", function () { removeElement(0); });
+    // tslint:disable-next-line: typedef
     document.querySelectorAll(".delete")[1].addEventListener("click", function () { removeElement(1); });
+    // tslint:disable-next-line: typedef
     document.querySelectorAll(".delete")[2].addEventListener("click", function () { removeElement(2); });
+    // tslint:disable-next-line: typedef
+    icon.addEventListener("click", function () { removeElement(kinder); });
 });
+//*TEXT: Wie viele Aufgaben habe ich noch zu erledigen?*//
+function counter() {
+    console.log("Meine Aufgaben" + kinder);
+    document.getElementById("count").innerText = "Es gibt" + kinder + "Aufgaben zu erledigen!";
+}
+//*LISTENELEMENT / LÖSCHEN / CHECK*// 
 function addElement() {
-    var li = document.createElement("li"); //erstelle neues Listenelement
-    document.getElementById("LIST").appendChild(li); // füge neues li in ul "LI" ein
+    var li = document.createElement("li");
+    document.getElementById("LIST").appendChild(li);
     var checkbox = document.createElement("input");
     checkbox.type = "checkbox";
-    li.appendChild(checkbox); // füge zu li noch checkbox hinzu
-    var inputValue = document.getElementById("myInput").value; // Inhalt von "input" von "myInput" beziehen
-    var text = document.createTextNode(inputValue); // Inhalt von value ist ein Text
-    li.appendChild(text); // füge Textinhalt zu neuem li hinzu
-    var icon = document.createElement("i"); //erstelle ein Element
-    icon.className = "fas fa-trash-alt delete"; //gebe Elemet Klasse "fas..."
-    icon.addEventListener("click", function () { removeElement(kinder); });
-    li.appendChild(icon); //füge zu neuem li Element das Icon hinzu
+    li.appendChild(checkbox);
+    var inputValue = document.getElementById("myInput").Value;
+    var text = document.createTextNode(inputValue);
+    li.appendChild(text);
+    var icon = document.createElement("i");
+    icon.className = "fas fa-trash-alt delete";
+    // tslint:disable-next-line: typedef
+    li.appendChild(icon);
     kinder++;
     counter();
 }
-//Versuche Löschfuntion: 
-/* function removeElement(): void {
-var bye = document.getElementsByClassName("delete");
-delete.removeChild;
-} */
-// function removeElement(feld: number): void {
-//   switch (feld) {
-//     case 0:
-//       break;
-//     default:
-//       break;
-//   }
-// }
 function removeElement(feld) {
+    // tslint:disable-next-line: typedef
     var LI = document.getElementById("LIST");
-    var task = 0;
     if (LI.hasChildNodes()) {
         LI.removeChild(LI.childNodes[feld]);
-        // LI.removeChild(LI.childNodes[1]);
-        // LI.removeChild(LI.childNodes[2]);
     }
     kinder--;
     counter();
-}
-function counter() {
-    var index = 0;
-    console.log("Anzahl Aufgaben:" + kinder);
-    document.getElementById("count").innerText = "Es gibt " + kinder + " Aufgaben zu erledigen.";
 }
 //# sourceMappingURL=scriptapp.js.map
